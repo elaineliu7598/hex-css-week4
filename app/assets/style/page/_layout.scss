@@ -121,12 +121,12 @@
     }
 }
 
-.dropdown.active{
-    border-bottom: 8px solid $secondary;
-    @include mobile{
-        border-bottom: 4px solid $secondary;
-    }
-}
+// .dropdown.active{
+//     border-bottom: 8px solid $secondary;
+//     @include mobile{
+//         border-bottom: 4px solid $secondary;
+//     }
+// }
 
 //.header 固定，內容區塊需推擠出高度留白
 .main{
