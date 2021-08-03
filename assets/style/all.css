@@ -293,12 +293,6 @@ a {
         .product-menu-list li a img {
           width: 100%; } }
 
-.dropdown.active {
-  border-bottom: 8px solid #AA0601; }
-  @media (max-width: 414px) {
-    .dropdown.active {
-      border-bottom: 4px solid #AA0601; } }
-
 .main {
   padding-top: 109px; }
   @media (max-width: 414px) {
@@ -437,9 +431,15 @@ a {
   @media (max-width: 768px) {
     .product-content h2 {
       font-size: 32px; } }
+  @media (max-width: 414px) {
+    .product-content h2 {
+      font-size: 20px; } }
   @media (max-width: 768px) {
     .product-content h3 {
       font-size: 24px; } }
+  @media (max-width: 414px) {
+    .product-content h3 {
+      font-size: 16px; } }
 
 .product-banner {
   margin-bottom: 80px; }
@@ -484,6 +484,20 @@ a {
     .optical li {
       width: 100%; } }
 
+.sunglasses {
+  margin-bottom: 96px; }
+  @media (max-width: 768px) {
+    .sunglasses {
+      margin-bottom: 56px; } }
+  .sunglasses li {
+    width: 31.53%; }
+    @media (max-width: 768px) {
+      .sunglasses li {
+        width: 47.8%; } }
+    @media (max-width: 414px) {
+      .sunglasses li {
+        width: 100%; } }
+
 .product-info p {
   font-size: 16px; }
 
@@ -512,6 +526,12 @@ a {
         background-color: #000;
         color: #fff; }
 
+@media (max-width: 414px) {
+  .sunglasses-pagi {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; } }
+
 .page-dir {
   font-size: 19px;
   padding: 11px 12px; }
@@ -536,26 +556,6 @@ a {
   @media (max-width: 320px) {
     .page-num-5 {
       display: none; } }
-
-.sunglasses {
-  margin-bottom: 96px; }
-  @media (max-width: 768px) {
-    .sunglasses {
-      margin-bottom: 56px; } }
-  .sunglasses li {
-    width: 31.53%; }
-    @media (max-width: 768px) {
-      .sunglasses li {
-        width: 47.8%; } }
-    @media (max-width: 414px) {
-      .sunglasses li {
-        width: 100%; } }
-
-@media (max-width: 414px) {
-  .sunglasses-pagi {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex; } }
 
 .store-content {
   padding-top: 96px;
