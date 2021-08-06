@@ -11,6 +11,17 @@
     }
 }
 
+@include mobile{
+    .d-sm{
+        &-none{
+            display: none;
+        }
+        &-block{
+            display: block;
+        }
+    }
+}
+
 //flex
 .flex-wrap{
     flex-wrap: wrap;

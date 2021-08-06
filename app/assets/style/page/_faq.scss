@@ -57,12 +57,3 @@
         }
     }
 }
-
-@include mobile{
-    .m-none{
-        display: none;
-    }
-    .m-display{
-        display: block;
-    }
-}

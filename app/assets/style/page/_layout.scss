@@ -151,11 +151,20 @@
 }
 
 .footer-top{
+    border-bottom: 1px solid $white;
+	padding-bottom: 24px;
+	margin-bottom: 32px;
+    @include pad{
+        padding-bottom: 8px;
+		margin-bottom: 24px;
+    }
     @include mobile{
         display: flex;
 		flex-direction: row-reverse;
 		justify-content: space-between;
 		align-items: flex-start;
+        padding-bottom: 18px;
+		margin-bottom: 16px;
     }
 }
 
@@ -219,20 +228,6 @@
 		    height: 20px;
 		    margin-right: 5px;
         }
-    }
-}
-
-.divider{
-	border-bottom: 1px solid $white;
-	margin-top: 24px;
-	margin-bottom: 32px;
-    @include pad{
-        margin-top: 8px;
-		margin-bottom: 24px;
-    }
-    @include mobile{
-        margin-top: 18px;
-		margin-bottom: 16px;
     }
 }
 
